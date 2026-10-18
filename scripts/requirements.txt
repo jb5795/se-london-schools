@@ -1,0 +1,9 @@
+# Python libraries the data scripts need.
+# Install them all with:   pip3 install -r scripts/requirements.txt
+requests>=2.31      # downloads files and web pages
+pandas>=2.1         # reads and reshapes spreadsheet-style data (CSV)
+openpyxl>=3.1       # lets pandas read Excel (.xlsx) files, e.g. the Ofsted download
+pdfplumber>=0.10    # pulls tables out of council admissions PDFs
+pyproj==3.7.0       # converts GIAS grid references (OSGB36) to latitude/longitude.
+                    # Pinned: 3.7.0 is the newest with a ready-made build for Intel Macs on macOS 12.
+                    # Newer versions try to compile from source there and fail.

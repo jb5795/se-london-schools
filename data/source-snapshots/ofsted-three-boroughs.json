@@ -1,0 +1,4145 @@
+{
+  "sources": {
+    "current": {
+      "title": "Management information - state-funded schools - latest inspections as at 30 Sep 2026",
+      "url": "https://assets.publishing.service.gov.uk/media/6ad095a72de3184ccf8b818d/Management_information_-_state-funded_schools_-_latest_inspections_as_at_30_Sep_2026.csv",
+      "asAt": "2026-09-30"
+    },
+    "legacy": {
+      "title": "Management information - state-funded schools - latest inspections as at 31 October 2025",
+      "url": "https://assets.publishing.service.gov.uk/media/69120166bda892e068aa6443/Management_information_-_state-funded_schools_-_latest_inspections_as_at_31_October_2025.csv",
+      "note": "Used only for each school's last old-style graded inspection"
+    },
+    "page": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
+    "licence": "Open Government Licence v3.0"
+  },
+  "generatedAt": "2026-10-17T18:09:27",
+  "schools": [
+    {
+      "urn": 100203,
+      "name": "Heath House Preparatory School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100529,
+      "name": "DLD College",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100556,
+      "name": "Ashmole Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2016-11-09",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100556"
+    },
+    {
+      "urn": 100560,
+      "name": "Clapham Manor Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-10-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100560"
+    },
+    {
+      "urn": 100564,
+      "name": "Granton Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2017-07-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100564"
+    },
+    {
+      "urn": 100566,
+      "name": "Heathbrook Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2016-05-17",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100566"
+    },
+    {
+      "urn": 100567,
+      "name": "Henry Cavendish Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-05-16",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100567"
+    },
+    {
+      "urn": 100572,
+      "name": "Jessop Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-01-30",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100572"
+    },
+    {
+      "urn": 100574,
+      "name": "Kingswood Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-10-01",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100574"
+    },
+    {
+      "urn": 100576,
+      "name": "Larkhall Primary Campus",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-06-20",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100576"
+    },
+    {
+      "urn": 100577,
+      "name": "Paxton Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2024-06-11",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100577"
+    },
+    {
+      "urn": 100578,
+      "name": "Richard Atkins Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2012-03-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100578"
+    },
+    {
+      "urn": 100582,
+      "name": "Stockwell Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-09-21",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100582"
+    },
+    {
+      "urn": 100584,
+      "name": "Sudbourne Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-09-26",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100584"
+    },
+    {
+      "urn": 100585,
+      "name": "Sunnyhill Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2024-07-10",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100585"
+    },
+    {
+      "urn": 100586,
+      "name": "Telferscot Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-02-11",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100586"
+    },
+    {
+      "urn": 100588,
+      "name": "Vauxhall Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-11-29",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100588"
+    },
+    {
+      "urn": 100589,
+      "name": "Walnut Tree Walk Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2014-09-24",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100589"
+    },
+    {
+      "urn": 100590,
+      "name": "Woodmansterne School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-09-24",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100590"
+    },
+    {
+      "urn": 100591,
+      "name": "Wyvil Primary School and Resource Bases for Speech, Language and Communication Needs, and Autism",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2024-06-12",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100591"
+    },
+    {
+      "urn": 100593,
+      "name": "Crown Lane Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2012-02-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100593"
+    },
+    {
+      "urn": 100595,
+      "name": "Fenstanton Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-06-02",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100595"
+    },
+    {
+      "urn": 100597,
+      "name": "Elm Wood School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-01-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100597"
+    },
+    {
+      "urn": 100598,
+      "name": "Allen Edwards Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2024-06-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100598"
+    },
+    {
+      "urn": 100601,
+      "name": "Glenbrook Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Strong standard",
+      "ofstedInspectionDate": "2026-01-20",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100601"
+    },
+    {
+      "urn": 100602,
+      "name": "Julian's School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2017-11-14",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100602"
+    },
+    {
+      "urn": 100604,
+      "name": "Herbert Morrison Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2016-11-29",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100604"
+    },
+    {
+      "urn": 100609,
+      "name": "Archbishop Sumner Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-05-20",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100609"
+    },
+    {
+      "urn": 100610,
+      "name": "Christ Church Primary SW9",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-06-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100610"
+    },
+    {
+      "urn": 100612,
+      "name": "Macaulay Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-12-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100612"
+    },
+    {
+      "urn": 100613,
+      "name": "St Andrew's Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-01-30",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100613"
+    },
+    {
+      "urn": 100614,
+      "name": "St John the Divine Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-11-14",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100614"
+    },
+    {
+      "urn": 100615,
+      "name": "St John's Angell Town Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-06-26",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100615"
+    },
+    {
+      "urn": 100616,
+      "name": "St Jude's Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-11-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100616"
+    },
+    {
+      "urn": 100619,
+      "name": "St Mark's Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-09-10",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100619"
+    },
+    {
+      "urn": 100620,
+      "name": "St Saviour's Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2015-04-21",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100620"
+    },
+    {
+      "urn": 100621,
+      "name": "St Stephen's Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-05-08",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100621"
+    },
+    {
+      "urn": 100622,
+      "name": "Holy Trinity Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-03-24",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100622"
+    },
+    {
+      "urn": 100623,
+      "name": "St Helen's Catholic Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2014-07-15",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100623"
+    },
+    {
+      "urn": 100624,
+      "name": "The Norwood School",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-02-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100624"
+    },
+    {
+      "urn": 100625,
+      "name": "Lilian Baylis Technology School",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2023-02-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100625"
+    },
+    {
+      "urn": 100627,
+      "name": "Saint Gabriel's College",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-11-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100627"
+    },
+    {
+      "urn": 100629,
+      "name": "St Anne's Catholic Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-05-13",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100629"
+    },
+    {
+      "urn": 100631,
+      "name": "St Bede's Catholic Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-06-03",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100631"
+    },
+    {
+      "urn": 100632,
+      "name": "St Andrew's Catholic Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-07-09",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100632"
+    },
+    {
+      "urn": 100633,
+      "name": "Immanuel and St Andrew Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-07-01",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100633"
+    },
+    {
+      "urn": 100634,
+      "name": "Reay Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-12-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100634"
+    },
+    {
+      "urn": 100636,
+      "name": "St Mary's Roman Catholic Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-11-12",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100636"
+    },
+    {
+      "urn": 100637,
+      "name": "La Retraite Roman Catholic Girls' School",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2023-12-13",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100637"
+    },
+    {
+      "urn": 100638,
+      "name": "Bishop Thomas Grant Catholic Secondary School",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-02-25",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100638"
+    },
+    {
+      "urn": 100644,
+      "name": "Alleyn's Oakfield",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100645,
+      "name": "Rosemead Preparatory School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100648,
+      "name": "Streatham & Clapham High School GDST",
+      "laName": "Lambeth",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100651,
+      "name": "The White House Preparatory School & Woodentops Kindergarten",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100671,
+      "name": "Adamsrill Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2016-07-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100671"
+    },
+    {
+      "urn": 100672,
+      "name": "Athelney Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-06-23",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100672"
+    },
+    {
+      "urn": 100673,
+      "name": "Baring Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-01-14",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100673"
+    },
+    {
+      "urn": 100674,
+      "name": "Beecroft Garden Primary",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-10-15",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100674"
+    },
+    {
+      "urn": 100676,
+      "name": "Cooper's Lane Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2012-03-19",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100676"
+    },
+    {
+      "urn": 100677,
+      "name": "Dalmain Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-11-12",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100677"
+    },
+    {
+      "urn": 100678,
+      "name": "Deptford Park Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2013-07-03",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100678"
+    },
+    {
+      "urn": 100679,
+      "name": "Downderry Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Strong standard",
+      "ofstedInspectionDate": "2026-06-30",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100679"
+    },
+    {
+      "urn": 100680,
+      "name": "Edmund Waller Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2014-02-27",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100680"
+    },
+    {
+      "urn": 100681,
+      "name": "Elfrida Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-07-14",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100681"
+    },
+    {
+      "urn": 100683,
+      "name": "Forster Park Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-12-10",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100683"
+    },
+    {
+      "urn": 100684,
+      "name": "Gordonbrock Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2019-03-19",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100684"
+    },
+    {
+      "urn": 100685,
+      "name": "Grinling Gibbons Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-09-21",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100685"
+    },
+    {
+      "urn": 100686,
+      "name": "Haseltine Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-03-13",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100686"
+    },
+    {
+      "urn": 100687,
+      "name": "Brindishe Green School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-09-26",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100687"
+    },
+    {
+      "urn": 100688,
+      "name": "Holbeach Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2017-11-07",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100688"
+    },
+    {
+      "urn": 100689,
+      "name": "John Stainer Community Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-02-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100689"
+    },
+    {
+      "urn": 100690,
+      "name": "Kelvin Grove Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-06-07",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100690"
+    },
+    {
+      "urn": 100691,
+      "name": "Kender Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-03-11",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100691"
+    },
+    {
+      "urn": 100692,
+      "name": "Launcelot Primary School and Nursery",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 3,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Needs attention",
+      "ofstedInspectionDate": "2026-05-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100692"
+    },
+    {
+      "urn": 100693,
+      "name": "Brindishe Manor School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-05-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100693"
+    },
+    {
+      "urn": 100695,
+      "name": "Oak Gardens Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-01-17",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100695"
+    },
+    {
+      "urn": 100696,
+      "name": "Marvels Lane Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2016-07-12",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100696"
+    },
+    {
+      "urn": 100699,
+      "name": "Rangefield Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-06-21",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100699"
+    },
+    {
+      "urn": 100700,
+      "name": "Rathfern Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Strong standard",
+      "ofstedInspectionDate": "2026-01-20",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100700"
+    },
+    {
+      "urn": 100701,
+      "name": "Rushey Green Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-11-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100701"
+    },
+    {
+      "urn": 100703,
+      "name": "Sandhurst Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-03-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100703"
+    },
+    {
+      "urn": 100704,
+      "name": "Stillness Junior School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2020-02-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100704"
+    },
+    {
+      "urn": 100705,
+      "name": "Stillness Infant School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Strong standard",
+      "ofstedInspectionDate": "2026-07-07",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100705"
+    },
+    {
+      "urn": 100708,
+      "name": "Torridon Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-02-02",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100708"
+    },
+    {
+      "urn": 100709,
+      "name": "John Ball Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-05-08",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100709"
+    },
+    {
+      "urn": 100710,
+      "name": "Fairlawn Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-01-16",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100710"
+    },
+    {
+      "urn": 100711,
+      "name": "Eliot Bank Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-04-25",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100711"
+    },
+    {
+      "urn": 100712,
+      "name": "Twin Oaks Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-01-27",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100712"
+    },
+    {
+      "urn": 100713,
+      "name": "Myatt Garden Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2014-09-24",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100713"
+    },
+    {
+      "urn": 100714,
+      "name": "Horniman Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2014-02-12",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100714"
+    },
+    {
+      "urn": 100715,
+      "name": "Perrymount Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2012-12-13",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100715"
+    },
+    {
+      "urn": 100716,
+      "name": "Ashmead Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2012-10-16",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100716"
+    },
+    {
+      "urn": 100717,
+      "name": "Brindishe Lee School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-09-19",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100717"
+    },
+    {
+      "urn": 100718,
+      "name": "Kilmorie Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2024-07-10",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100718"
+    },
+    {
+      "urn": 100719,
+      "name": "All Saints' Church of England Primary School Blackheath",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-09-25",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100719"
+    },
+    {
+      "urn": 100722,
+      "name": "Good Shepherd RC School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 3,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Requires improvement (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-01-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100722"
+    },
+    {
+      "urn": 100723,
+      "name": "Holy Trinity Church of England Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2015-02-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100723"
+    },
+    {
+      "urn": 100724,
+      "name": "St Margaret's Lee CofE Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-07-10",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100724"
+    },
+    {
+      "urn": 100725,
+      "name": "St Augustine's Catholic Primary School and Nursery",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-06-27",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100725"
+    },
+    {
+      "urn": 100726,
+      "name": "St Bartholomews's Church of England Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-07-03",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100726"
+    },
+    {
+      "urn": 100728,
+      "name": "St John Baptist Southend Church of England Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2020-01-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100728"
+    },
+    {
+      "urn": 100729,
+      "name": "St Joseph's Catholic Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-06-07",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100729"
+    },
+    {
+      "urn": 100730,
+      "name": "St Mary's Lewisham Church of England Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Strong standard",
+      "ofstedInspectionDate": "2026-04-21",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100730"
+    },
+    {
+      "urn": 100733,
+      "name": "St Saviour's Catholic Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-03-25",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100733"
+    },
+    {
+      "urn": 100737,
+      "name": "St William of York Catholic Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-10-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100737"
+    },
+    {
+      "urn": 100739,
+      "name": "Holy Cross Catholic Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2016-12-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100739"
+    },
+    {
+      "urn": 100740,
+      "name": "Deptford Green School",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-04-26",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100740"
+    },
+    {
+      "urn": 100741,
+      "name": "Sydenham School",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-05-19",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100741"
+    },
+    {
+      "urn": 100745,
+      "name": "Forest Hill School",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-12-13",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100745"
+    },
+    {
+      "urn": 100748,
+      "name": "Addey and Stanhope School",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-04-26",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100748"
+    },
+    {
+      "urn": 100749,
+      "name": "Trinity Church of England School, Lewisham",
+      "laName": "Lewisham",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Strong standard",
+      "ofstedInspectionDate": "2025-11-25",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100749"
+    },
+    {
+      "urn": 100754,
+      "name": "St Dunstan's College",
+      "laName": "Lewisham",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100757,
+      "name": "Sydenham & Dulwich Girls GDST",
+      "laName": "Lewisham",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100774,
+      "name": "Albion Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2024-01-30",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100774"
+    },
+    {
+      "urn": 100775,
+      "name": "Bellenden Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2024-03-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100775"
+    },
+    {
+      "urn": 100780,
+      "name": "Bird In Bush School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2024-07-02",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100780"
+    },
+    {
+      "urn": 100784,
+      "name": "Crampton Primary",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-04-17",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100784"
+    },
+    {
+      "urn": 100785,
+      "name": "Crawford Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-04-01",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100785"
+    },
+    {
+      "urn": 100790,
+      "name": "Goodrich Community Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-07-15",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100790"
+    },
+    {
+      "urn": 100791,
+      "name": "Grange Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-02-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100791"
+    },
+    {
+      "urn": 100793,
+      "name": "Heber Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-10-08",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100793"
+    },
+    {
+      "urn": 100794,
+      "name": "Hollydale Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-10-01",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100794"
+    },
+    {
+      "urn": 100795,
+      "name": "Ilderton Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-06-24",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100795"
+    },
+    {
+      "urn": 100796,
+      "name": "Ivydale Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-02-26",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100796"
+    },
+    {
+      "urn": 100798,
+      "name": "John Ruskin Primary School and Language Classes",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2023-10-18",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100798"
+    },
+    {
+      "urn": 100800,
+      "name": "Keyworth Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-05-09",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100800"
+    },
+    {
+      "urn": 100801,
+      "name": "Dulwich Wood Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-07-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100801"
+    },
+    {
+      "urn": 100803,
+      "name": "Michael Faraday School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2014-10-16",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100803"
+    },
+    {
+      "urn": 100808,
+      "name": "Riverside Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-12-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100808"
+    },
+    {
+      "urn": 100809,
+      "name": "Robert Browning Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2025-12-09",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100809"
+    },
+    {
+      "urn": 100811,
+      "name": "Snowsfields Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-07-03",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100811"
+    },
+    {
+      "urn": 100812,
+      "name": "Southwark Park Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-10-11",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100812"
+    },
+    {
+      "urn": 100813,
+      "name": "Tower Bridge Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-03-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100813"
+    },
+    {
+      "urn": 100815,
+      "name": "Victory Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-05-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100815"
+    },
+    {
+      "urn": 100817,
+      "name": "Phoenix Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-06-17",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100817"
+    },
+    {
+      "urn": 100818,
+      "name": "Pilgrims' Way Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2015-07-01",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100818"
+    },
+    {
+      "urn": 100819,
+      "name": "Alfred Salter Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-02-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100819"
+    },
+    {
+      "urn": 100821,
+      "name": "Oliver Goldsmith Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-05-24",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100821"
+    },
+    {
+      "urn": 100822,
+      "name": "Boutcher Church of England Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2022-07-14",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100822"
+    },
+    {
+      "urn": 100823,
+      "name": "Dulwich Village Church of England Infants' School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2023-10-17",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100823"
+    },
+    {
+      "urn": 100824,
+      "name": "English Martyrs' Roman Catholic Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2016-07-07",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100824"
+    },
+    {
+      "urn": 100825,
+      "name": "St James the Great Roman Catholic Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2017-03-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100825"
+    },
+    {
+      "urn": 100826,
+      "name": "St Francis RC Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2012-12-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100826"
+    },
+    {
+      "urn": 100827,
+      "name": "St George's Church of England Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-07-11",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100827"
+    },
+    {
+      "urn": 100829,
+      "name": "St James' Church of England Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2014-11-19",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100829"
+    },
+    {
+      "urn": 100830,
+      "name": "St John's and St Clement's Church of England Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-10-01",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100830"
+    },
+    {
+      "urn": 100834,
+      "name": "Saint Joseph's Catholic Primary School, the Borough",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2013-12-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100834"
+    },
+    {
+      "urn": 100835,
+      "name": "St Jude's Church of England Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-01-27",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100835"
+    },
+    {
+      "urn": 100837,
+      "name": "Peter Hills with St Mary's and St Paul's CofE Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-07-19",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100837"
+    },
+    {
+      "urn": 100839,
+      "name": "St Peter's Church of England Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2013-01-24",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100839"
+    },
+    {
+      "urn": 100840,
+      "name": "The Cathedral School of St Saviour and St Mary Overie",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2022-12-07",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100840"
+    },
+    {
+      "urn": 100841,
+      "name": "St John's Roman Catholic Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-04-01",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100841"
+    },
+    {
+      "urn": 100849,
+      "name": "St Saviour's and St Olave's Church of England School",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-11-16",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100849"
+    },
+    {
+      "urn": 100853,
+      "name": "St Joseph's Catholic Junior School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2013-01-15",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100853"
+    },
+    {
+      "urn": 100854,
+      "name": "St Joseph's Catholic Infants School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2013-10-03",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100854"
+    },
+    {
+      "urn": 100855,
+      "name": "Friars Primary Foundation School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-05-16",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100855"
+    },
+    {
+      "urn": 100857,
+      "name": "The St Thomas the Apostle College",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2018-11-20",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/100857"
+    },
+    {
+      "urn": 100861,
+      "name": "Dulwich College",
+      "laName": "Southwark",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100862,
+      "name": "Dulwich Prep & Senior",
+      "laName": "Southwark",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100863,
+      "name": "James Allen's Girls' School",
+      "laName": "Southwark",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100864,
+      "name": "Alleyn's School",
+      "laName": "Southwark",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 100866,
+      "name": "Herne Hill School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 130918,
+      "name": "Bessemer Grange Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2015-03-10",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/130918"
+    },
+    {
+      "urn": 131247,
+      "name": "Bonneville Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-05-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/131247"
+    },
+    {
+      "urn": 131340,
+      "name": "Hill Mead Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 3,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Requires improvement",
+      "ofstedInspectionDate": "2024-06-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/131340"
+    },
+    {
+      "urn": 131747,
+      "name": "Harris Academy Bermondsey",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-02-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/131747"
+    },
+    {
+      "urn": 131824,
+      "name": "Hitherfield Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-10-08",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/131824"
+    },
+    {
+      "urn": 131843,
+      "name": "Brunswick Park Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2024-11-26",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/131843"
+    },
+    {
+      "urn": 131874,
+      "name": "Henry Fawcett Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2024-06-18",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/131874"
+    },
+    {
+      "urn": 132711,
+      "name": "Harris Girls' Academy East Dulwich",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2023-12-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/132711"
+    },
+    {
+      "urn": 133662,
+      "name": "Jubilee Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2016-10-13",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/133662"
+    },
+    {
+      "urn": 134142,
+      "name": "The Villa",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 134222,
+      "name": "City of London Academy (Southwark)",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Strong standard",
+      "ofstedInspectionDate": "2026-02-03",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/134222"
+    },
+    {
+      "urn": 134225,
+      "name": "Harris Academy Peckham",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-02-11",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/134225"
+    },
+    {
+      "urn": 134507,
+      "name": "The Orchard School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2019-05-21",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/134507"
+    },
+    {
+      "urn": 134815,
+      "name": "The Elms Academy",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2020-02-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/134815"
+    },
+    {
+      "urn": 134903,
+      "name": "Rye Oak Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-05-10",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/134903"
+    },
+    {
+      "urn": 135070,
+      "name": "Haberdashers' Knights Academy",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2017-06-27",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/135070"
+    },
+    {
+      "urn": 135073,
+      "name": "Haberdashers' Hatcham College",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-02-26",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/135073"
+    },
+    {
+      "urn": 135264,
+      "name": "St Matthew Academy",
+      "laName": "Lewisham",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-03-11",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/135264"
+    },
+    {
+      "urn": 135315,
+      "name": "Ark Walworth Academy",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2014-10-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/135315"
+    },
+    {
+      "urn": 135389,
+      "name": "Ark Evelyn Grace Academy",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-02-25",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/135389"
+    },
+    {
+      "urn": 135409,
+      "name": "London Christian School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 135584,
+      "name": "Ark Globe Academy",
+      "laName": "Southwark",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Strong standard",
+      "ofstedInspectionDate": "2026-05-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/135584"
+    },
+    {
+      "urn": 135614,
+      "name": "Iqra Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2017-10-17",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/135614"
+    },
+    {
+      "urn": 135816,
+      "name": "Harris Boys' Academy East Dulwich",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2023-11-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/135816"
+    },
+    {
+      "urn": 135901,
+      "name": "Marathon Science School",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 136298,
+      "name": "The Charter School North Dulwich",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Strong standard",
+      "ofstedInspectionDate": "2026-05-19",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/136298"
+    },
+    {
+      "urn": 136309,
+      "name": "Kingsdale Foundation School",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2023-03-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/136309"
+    },
+    {
+      "urn": 136450,
+      "name": "Platanos College",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2021-10-19",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/136450"
+    },
+    {
+      "urn": 136665,
+      "name": "Dulwich Hamlet Junior School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2023-03-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/136665"
+    },
+    {
+      "urn": 137093,
+      "name": "Dunraven School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-03-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/137093"
+    },
+    {
+      "urn": 137295,
+      "name": "Corpus Christi Catholic Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-05-01",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/137295"
+    },
+    {
+      "urn": 137413,
+      "name": "Harris Primary Academy Peckham Park",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-03-13",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/137413"
+    },
+    {
+      "urn": 137430,
+      "name": "Oasis Academy South Bank Primary",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2015-03-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/137430"
+    },
+    {
+      "urn": 137441,
+      "name": "Tidemill Academy",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-11-09",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/137441"
+    },
+    {
+      "urn": 137648,
+      "name": "Redriff Primary, City of London Academy",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2023-11-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/137648"
+    },
+    {
+      "urn": 137954,
+      "name": "City Heights E-ACT Academy",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 3,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Needs attention",
+      "ofstedInspectionDate": "2025-12-09",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/137954"
+    },
+    {
+      "urn": 138960,
+      "name": "Sacred Heart Catholic School",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2023-11-08",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/138960"
+    },
+    {
+      "urn": 139587,
+      "name": "The Charter School Bermondsey",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2017-05-17",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/139587"
+    },
+    {
+      "urn": 139659,
+      "name": "Oasis Academy South Bank",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-05-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/139659"
+    },
+    {
+      "urn": 139672,
+      "name": "Haberdashers' Hatcham Free School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-06-03",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/139672"
+    },
+    {
+      "urn": 139718,
+      "name": "Ark All Saints Academy",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2015-06-02",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/139718"
+    },
+    {
+      "urn": 139907,
+      "name": "Judith Kerr Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-05-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/139907"
+    },
+    {
+      "urn": 140221,
+      "name": "South Bank University Academy",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-05-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/140221"
+    },
+    {
+      "urn": 140507,
+      "name": "John Donne Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-11-29",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/140507"
+    },
+    {
+      "urn": 140937,
+      "name": "Harris Primary Academy East Dulwich",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2017-05-09",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/140937"
+    },
+    {
+      "urn": 140966,
+      "name": "Trinity Academy",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2017-05-03",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/140966"
+    },
+    {
+      "urn": 141666,
+      "name": "Angel Oak Academy",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2017-10-11",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/141666"
+    },
+    {
+      "urn": 142090,
+      "name": "The Belham Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-07-17",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/142090"
+    },
+    {
+      "urn": 142178,
+      "name": "The Charter School East Dulwich",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-10-16",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/142178"
+    },
+    {
+      "urn": 142456,
+      "name": "St Winifred's RC Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-10-10",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/142456"
+    },
+    {
+      "urn": 142875,
+      "name": "Galleywall Primary, City of London Academy",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2019-05-14",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/142875"
+    },
+    {
+      "urn": 143838,
+      "name": "Urban Mission School",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 143933,
+      "name": "Education-My Life Matters",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 144308,
+      "name": "Rosendale Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-04-18",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/144308"
+    },
+    {
+      "urn": 144309,
+      "name": "The Elmgreen School",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-06-29",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/144309"
+    },
+    {
+      "urn": 145130,
+      "name": "Goose Green Primary and Nursery School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2020-01-15",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/145130"
+    },
+    {
+      "urn": 145313,
+      "name": "Bacon's College",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-06-08",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/145313"
+    },
+    {
+      "urn": 145614,
+      "name": "Christ Church, Streatham Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2011-11-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/145614"
+    },
+    {
+      "urn": 145615,
+      "name": "St Leonard's Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 3,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Needs attention",
+      "ofstedInspectionDate": "2026-06-23",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/145615"
+    },
+    {
+      "urn": 145616,
+      "name": "St Luke's Church of England Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-05-24",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/145616"
+    },
+    {
+      "urn": 145621,
+      "name": "St George's CofE Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Strong standard",
+      "ofstedInspectionDate": "2026-05-19",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/145621"
+    },
+    {
+      "urn": 145888,
+      "name": "John Keats Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-02-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/145888"
+    },
+    {
+      "urn": 146100,
+      "name": "Turnham Academy",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-10-11",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/146100"
+    },
+    {
+      "urn": 146117,
+      "name": "Oasis Academy Surrey Square",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2016-12-06",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/146117"
+    },
+    {
+      "urn": 146221,
+      "name": "Childeric Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2012-12-04",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/146221"
+    },
+    {
+      "urn": 146368,
+      "name": "Van Gogh Primary",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-02-08",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/146368"
+    },
+    {
+      "urn": 146669,
+      "name": "St Paul's Church of England Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-07-18",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/146669"
+    },
+    {
+      "urn": 147073,
+      "name": "Haberdashers' Borough Academy",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2024-03-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/147073"
+    },
+    {
+      "urn": 147355,
+      "name": "Haberdashers' Hatcham Primary",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-11-29",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/147355"
+    },
+    {
+      "urn": 147363,
+      "name": "Haberdashers' Knights Primary",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-12-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/147363"
+    },
+    {
+      "urn": 147543,
+      "name": "Harris Academy Clapham",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2023-02-02",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/147543"
+    },
+    {
+      "urn": 147732,
+      "name": "Arco Academy",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": true,
+      "ofstedNumeric": null,
+      "ofstedFormat": null,
+      "ofstedGrade": null,
+      "ofstedInspectionDate": null,
+      "ofstedConfidence": null,
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": null
+    },
+    {
+      "urn": 148003,
+      "name": "Sedgehill Academy",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-09-28",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/148003"
+    },
+    {
+      "urn": 148012,
+      "name": "Charles Dickens Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2019-09-24",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/148012"
+    },
+    {
+      "urn": 148574,
+      "name": "Lyndhurst Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2014-11-05",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/148574"
+    },
+    {
+      "urn": 149346,
+      "name": "St Joseph's Catholic Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Expected standard",
+      "ofstedInspectionDate": "2026-02-03",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/149346"
+    },
+    {
+      "urn": 149369,
+      "name": "Notre Dame Catholic Girls' School",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 3,
+      "ofstedFormat": "report-card",
+      "ofstedGrade": "Curriculum and teaching: Needs attention",
+      "ofstedInspectionDate": "2026-06-30",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/149369"
+    },
+    {
+      "urn": 149556,
+      "name": "Streatham Wells Primary",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-01-30",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/149556"
+    },
+    {
+      "urn": 149604,
+      "name": "Grove Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2011-09-12",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/149604"
+    },
+    {
+      "urn": 149605,
+      "name": "Rotherhithe Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2014-01-14",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/149605"
+    },
+    {
+      "urn": 150318,
+      "name": "Prendergast Ladywell School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2019-02-26",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/150318"
+    },
+    {
+      "urn": 150319,
+      "name": "Prendergast School",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-03-18",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/150319"
+    },
+    {
+      "urn": 150351,
+      "name": "Prendergast Vale School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary",
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-01-30",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/150351"
+    },
+    {
+      "urn": 150551,
+      "name": "St Anthony's Catholic Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2012-02-23",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/150551"
+    },
+    {
+      "urn": 150552,
+      "name": "Our Lady and St Philip Neri Catholic Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2015-02-03",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/150552"
+    },
+    {
+      "urn": 150605,
+      "name": "Bonus Pastor Catholic College",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2017-09-12",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/150605"
+    },
+    {
+      "urn": 150691,
+      "name": "Conisborough College",
+      "laName": "Lewisham",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 3,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Requires improvement",
+      "ofstedInspectionDate": "2022-04-26",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/150691"
+    },
+    {
+      "urn": 150830,
+      "name": "Loughborough Primary School",
+      "laName": "Lambeth",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2013-03-12",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/150830"
+    },
+    {
+      "urn": 150889,
+      "name": "London Nautical, City of London Academy",
+      "laName": "Lambeth",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 3,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Requires improvement",
+      "ofstedInspectionDate": "2023-06-22",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/150889"
+    },
+    {
+      "urn": 150937,
+      "name": "St Michael's Catholic College",
+      "laName": "Southwark",
+      "phases": [
+        "secondary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding (quality of education; no overall grade given)",
+      "ofstedInspectionDate": "2025-04-29",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": false,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/150937"
+    },
+    {
+      "urn": 151009,
+      "name": "St James's Hatcham Church of England Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2012-11-13",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/151009"
+    },
+    {
+      "urn": 151010,
+      "name": "St Michael's Church of England Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2011-05-24",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/151010"
+    },
+    {
+      "urn": 151011,
+      "name": "St Stephen's CofE Primary School",
+      "laName": "Lewisham",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2022-06-21",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/151011"
+    },
+    {
+      "urn": 151012,
+      "name": "St Joseph's Catholic Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 1,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Outstanding",
+      "ofstedInspectionDate": "2024-03-12",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/151012"
+    },
+    {
+      "urn": 151500,
+      "name": "St George's Cathedral Catholic Primary School",
+      "laName": "Southwark",
+      "phases": [
+        "primary"
+      ],
+      "isIndependent": false,
+      "ofstedNumeric": 2,
+      "ofstedFormat": "legacy",
+      "ofstedGrade": "Good",
+      "ofstedInspectionDate": "2018-12-12",
+      "ofstedConfidence": "CONFIRMED",
+      "ofstedFromPredecessor": true,
+      "ofstedWebLink": "http://www.ofsted.gov.uk/inspection-reports/find-inspection-report/provider/ELS/151500"
+    }
+  ]
+}

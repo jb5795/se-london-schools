@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SE London Schools Finder — local prototype</title>
+<!--
+  OPEN THIS FILE DIRECTLY IN YOUR BROWSER (double-click it).
+  It loads a real street map from OpenStreetMap and looks up postcodes via postcodes.io,
+  so it needs an internet connection. School data is still PLACEHOLDER.
+-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:#F6F6F2; --panel:#FFFFFF; --ink:#1B2420; --ink-2:#5A645F; --line:#DCDED8;
+    --primary:#2457C5; --secondary:#C9611B; --indep:#6B6F7A;
+    --ok:#2E7D4F; --ok-soft:#D9EEDF; --warn:#B97A0C; --warn-soft:#FBEBC6; --bad:#B23A3A; --bad-soft:#F6D9D9;
+    --r1:#1E7A47; --r2:#5FA46F; --r3:#D1941B; --r4:#B23A3A; --indep-soft:#E6E7EB;
+    box-sizing:border-box;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    color-scheme:dark; --paper:#15181A; --panel:#1D2124; --ink:#ECEEE9; --ink-2:#A3ABA6; --line:#2E3438;
+    --primary:#7FA3F0; --secondary:#F0A066; --indep:#A9AEB8; --indep-soft:#2B2F36;
+    --ok:#7CCB98; --ok-soft:#1E3627; --warn:#E7B651; --warn-soft:#3C2E10; --bad:#E58A8A; --bad-soft:#3E2222;
+    --r1:#6FCB92; --r2:#9ED3A8; --r3:#E7B651; --r4:#E58A8A; } }
+  :root[data-theme="dark"] {
+    color-scheme:dark; --paper:#15181A; --panel:#1D2124; --ink:#ECEEE9; --ink-2:#A3ABA6; --line:#2E3438;
+    --primary:#7FA3F0; --secondary:#F0A066; --indep:#A9AEB8; --indep-soft:#2B2F36;
+    --ok:#7CCB98; --ok-soft:#1E3627; --warn:#E7B651; --warn-soft:#3C2E10; --bad:#E58A8A; --bad-soft:#3E2222;
+    --r1:#6FCB92; --r2:#9ED3A8; --r3:#E7B651; --r4:#E58A8A; }
+  html, body { height:100%; margin:0; }
+  body { background:var(--paper); color:var(--ink); font-family:"Public Sans","Helvetica Neue",Arial,sans-serif; font-size:15px; line-height:1.45; }
+  *,*::before,*::after { box-sizing:inherit; }
+  button,input,select { font:inherit; color:inherit; }
+  :focus-visible { outline:2px solid var(--primary); outline-offset:2px; }
+  .app { display:grid; grid-template-rows:auto 1fr; height:100%; }
+  header.top { display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; padding:14px 20px 10px; border-bottom:1px solid var(--line); }
+  header.top h1 { font-size:18px; font-weight:700; margin:0; }
+  header.top .sub { color:var(--ink-2); font-size:13px; }
+  .proto { margin-left:auto; font-size:12px; color:var(--warn); background:var(--warn-soft); padding:4px 10px; border-radius:999px; font-weight:600; }
+  main { display:grid; grid-template-columns:3fr 2fr; min-height:0; }
+  @media (max-width:820px) { .app{height:auto;} main{grid-template-columns:1fr;} .mapwrap{height:60vh;} }
+  .mapwrap { position:relative; min-height:0; }
+  #map { width:100%; height:100%; }
+  .map-ui { position:absolute; top:12px; left:60px; right:12px; z-index:500; display:flex; gap:8px; flex-wrap:wrap; align-items:center; pointer-events:none; }
+  .map-ui > * { pointer-events:auto; }
+  .chip { display:inline-flex; align-items:center; gap:6px; padding:6px 11px; border-radius:999px; font-size:13px; font-weight:500; background:var(--panel); border:1px solid var(--line); cursor:pointer; }
+  .chip[aria-pressed="true"] { background:var(--ink); color:var(--paper); border-color:var(--ink); }
+  .legend { margin-left:auto; display:flex; gap:12px; font-size:12px; color:var(--ink-2); background:var(--panel); border:1px solid var(--line); padding:6px 10px; border-radius:8px; }
+  .legend span { display:inline-flex; align-items:center; gap:5px; }
+  .sw { width:10px; height:10px; display:inline-block; } .sw.p{background:var(--primary);border-radius:50%;} .sw.s{background:var(--secondary);} .sw.i{background:var(--indep);transform:rotate(45deg);width:8px;height:8px;}
+  aside { display:flex; flex-direction:column; min-height:0; }
+  .search { padding:16px 18px 12px; border-bottom:1px solid var(--line); }
+  .search form { display:flex; gap:8px; }
+  .search input { flex:1; padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:var(--panel); text-transform:uppercase; }
+  .search button { padding:10px 16px; border:0; border-radius:8px; background:var(--ink); color:var(--paper); font-weight:600; cursor:pointer; }
+  .resolved { margin-top:8px; font-size:13px; color:var(--ink-2); min-height:18px; }
+  .resolved.err { color:var(--bad); }
+  .controls { padding:10px 18px; border-bottom:1px solid var(--line); display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .controls select { padding:6px 8px; border:1px solid var(--line); border-radius:8px; background:var(--panel); font-size:13px; }
+  .grp { display:inline-flex; gap:6px; }
+  .list { overflow-y:auto; padding:12px 18px 24px; min-height:0; }
+  @media (max-width:820px) { .list{overflow:visible;} }
+  .count, .section { font-size:13px; color:var(--ink-2); margin:4px 0 12px; }
+  .section { margin-top:18px; font-weight:600; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:10px; cursor:pointer; border-left-width:4px; }
+  .card.primary{border-left-color:var(--primary);} .card.secondary{border-left-color:var(--secondary);} .card.independent{border-left-color:var(--indep);}
+  .card.outside { opacity:.78; }
+  .card.active { outline:2px solid var(--ink); }
+  .card .row { display:flex; align-items:baseline; gap:10px; }
+  .card .rank { font-weight:700; font-size:20px; min-width:30px; line-height:1; }
+  .card h3 { margin:0; font-size:15px; font-weight:600; }
+  .card .meta { color:var(--ink-2); font-size:13px; margin-top:2px; }
+  .card .facts { display:flex; flex-wrap:wrap; gap:6px 14px; margin-top:8px; font-size:13px; }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; font-size:12px; font-weight:600; }
+  .pill.r1{background:var(--ok-soft);color:var(--r1);} .pill.r2{background:var(--ok-soft);color:var(--r2);} .pill.r3{background:var(--warn-soft);color:var(--r3);} .pill.r4{background:var(--bad-soft);color:var(--r4);} .pill.none{background:var(--indep-soft);color:var(--indep);}
+  .status { font-weight:600; }
+  .status.in { color:var(--ok); } .status.out { color:var(--bad); } .status.near { color:var(--warn); }
+  .conf { font-size:12px; display:inline-flex; align-items:center; gap:5px; } .conf::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--indep);}
+  .flag { font-size:12px; color:var(--ink-2); }
+  .footnote { padding:12px 18px 18px; font-size:12px; color:var(--ink-2); border-top:1px solid var(--line); }
+  .leaflet-container { font:inherit; background:var(--paper); }
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <h1>SE London Schools Finder</h1>
+    <span class="sub">How close any postcode gets to each school’s furthest-admitted distance</span>
+    <span class="proto">Prototype — school data is illustrative</span>
+  </header>
+  <main>
+    <div class="mapwrap">
+      <div id="map"></div>
+      <div class="map-ui">
+        <button class="chip" id="toggleOverlay" aria-pressed="true">Catchment overlays on</button>
+        <div class="legend"><span><i class="sw p"></i>Primary</span><span><i class="sw s"></i>Secondary</span><span><i class="sw i"></i>Independent</span></div>
+      </div>
+    </div>
+    <aside>
+      <div class="search">
+        <form id="pcForm">
+          <input id="pc" placeholder="Enter postcode, e.g. SE15 3UD" aria-label="Postcode" autocomplete="postal-code">
+          <button type="submit">Find schools</button>
+        </form>
+        <div class="resolved" id="resolved">Enter a postcode, or click the map to set your home.</div>
+      </div>
+      <div class="controls">
+        <div class="grp" role="group" aria-label="Phase">
+          <button class="chip" data-phase="all" aria-pressed="true">Both</button>
+          <button class="chip" data-phase="primary" aria-pressed="false">Primary</button>
+          <button class="chip" data-phase="secondary" aria-pressed="false">Secondary</button>
+        </div>
+        <select id="minOfsted" aria-label="Minimum Ofsted rating">
+          <option value="4">Any Ofsted rating</option><option value="2">Good or better</option><option value="1">Outstanding only</option>
+        </select>
+        <select id="radius" aria-label="Search radius">
+          <option value="2000">Within 2 km</option><option value="3000" selected>Within 3 km</option><option value="5000">Within 5 km</option>
+        </select>
+        <select id="sort" aria-label="Sort by">
+          <option value="ofsted">Sort by Ofsted rank</option><option value="margin">Sort by margin inside/outside</option><option value="distance">Sort by distance</option><option value="name">Sort A to Z</option>
+        </select>
+        <label class="flag"><input type="checkbox" id="showIndep" checked> Independents</label>
+      </div>
+      <div class="list" id="list"></div>
+      <div class="footnote">School names are real; locations approximate. Every Ofsted grade, furthest-admitted distance and percentile is a placeholder until the data pipeline runs. “Inside” means your home is within last year’s furthest-admitted distance — the measure Southwark, Lambeth and Lewisham actually use, as their community schools have no fixed catchment areas.</div>
+    </aside>
+  </main>
+</div>
+
+<script>
+/* SAMPLE DATA — names real, coordinates approximate, g/far/pct are placeholders. */
+const SCHOOLS = [
+  {n:"Ivydale Primary School", p:"primary", t:"Community", lat:51.459, lon:-0.051, g:2, far:620, pct:58},
+  {n:"Hollydale Primary School", p:"primary", t:"Community", lat:51.465, lon:-0.055, g:2, far:540, pct:52},
+  {n:"John Donne Primary School", p:"primary", t:"Community", lat:51.469, lon:-0.062, g:1, far:480, pct:88},
+  {n:"Harris Primary Academy Peckham Park", p:"primary", t:"Academy", lat:51.475, lon:-0.072, g:1, far:700, pct:85},
+  {n:"Rye Oak Primary School", p:"primary", t:"Community", lat:51.456, lon:-0.063, g:2, far:900, pct:49},
+  {n:"Goodrich Community Primary School", p:"primary", t:"Community", lat:51.453, lon:-0.062, g:2, far:560, pct:61},
+  {n:"Heber Primary School", p:"primary", t:"Community", lat:51.455, lon:-0.078, g:1, far:430, pct:90},
+  {n:"St Anthony's Catholic Primary School", p:"primary", t:"Faith", lat:51.460, lon:-0.080, g:2, far:1100, pct:55, faith:true},
+  {n:"Bessemer Grange Primary School", p:"primary", t:"Community", lat:51.460, lon:-0.088, g:2, far:650, pct:50},
+  {n:"Judith Kerr Primary School", p:"primary", t:"Free school", lat:51.453, lon:-0.095, g:2, far:720, pct:57},
+  {n:"Dulwich Hamlet Junior School", p:"primary", t:"Academy", lat:51.447, lon:-0.090, g:1, far:510, pct:92},
+  {n:"Edmund Waller Primary School", p:"primary", t:"Community", lat:51.468, lon:-0.040, g:2, far:800, pct:47},
+  {n:"John Stainer Community Primary School", p:"primary", t:"Community", lat:51.460, lon:-0.038, g:3, far:1200, pct:22},
+  {n:"Harris Academy Peckham", p:"secondary", t:"Academy", lat:51.472, lon:-0.070, g:2, far:1900, pct:54},
+  {n:"Harris Girls' Academy East Dulwich", p:"secondary", t:"Academy", lat:51.454, lon:-0.075, g:1, far:1600, pct:86, note:"Girls only"},
+  {n:"Harris Boys' Academy East Dulwich", p:"secondary", t:"Academy", lat:51.459, lon:-0.064, g:2, far:1500, pct:60, note:"Boys only"},
+  {n:"The Charter School North Dulwich", p:"secondary", t:"Academy", lat:51.452, lon:-0.095, g:1, far:900, pct:91},
+  {n:"The Charter School East Dulwich", p:"secondary", t:"Free school", lat:51.451, lon:-0.072, g:2, far:1300, pct:63},
+  {n:"Kingsdale Foundation School", p:"secondary", t:"Foundation", lat:51.437, lon:-0.082, g:1, far:2400, pct:84, note:"Part lottery admissions"},
+  {n:"St Thomas the Apostle College", p:"secondary", t:"Faith", lat:51.465, lon:-0.054, g:2, far:2100, pct:58, faith:true, note:"Catholic, boys only"},
+  {n:"Sacred Heart Catholic School", p:"secondary", t:"Faith", lat:51.471, lon:-0.090, g:2, far:2000, pct:56, faith:true},
+  {n:"Haberdashers' Hatcham College", p:"secondary", t:"Academy", lat:51.472, lon:-0.045, g:1, far:1700, pct:83, note:"Part aptitude places"},
+  {n:"Prendergast School", p:"secondary", t:"Foundation", lat:51.458, lon:-0.020, g:1, far:1400, pct:80, note:"Girls only"},
+  {n:"Dulwich College", p:"secondary", t:"Independent", lat:51.442, lon:-0.088, g:null, pct:null, fees:"approx. £8,000+ per term", indep:true},
+  {n:"Alleyn's School", p:"secondary", t:"Independent", lat:51.447, lon:-0.080, g:null, pct:null, fees:"approx. £8,000+ per term", indep:true},
+  {n:"James Allen's Girls' School", p:"secondary", t:"Independent", lat:51.452, lon:-0.085, g:null, pct:null, fees:"approx. £8,000+ per term", indep:true},
+  {n:"Dulwich Prep London", p:"primary", t:"Independent", lat:51.440, lon:-0.080, g:null, pct:null, fees:"approx. £7,000+ per term", indep:true},
+];
+const GRADE = {1:"Outstanding", 2:"Good", 3:"Requires improvement", 4:"Inadequate"};
+const miles = m => (m/1609.344).toFixed(2) + " mi";
+
+// Haversine: straight-line distance in metres. Councils measure "as the crow flies" for most schools.
+function distM(a,b){const R=6371000,r=d=>d*Math.PI/180;const dLat=r(b.lat-a.lat),dLon=r(b.lon-a.lon);const h=Math.sin(dLat/2)**2+Math.cos(r(a.lat))*Math.cos(r(b.lat))*Math.sin(dLon/2)**2;return 2*R*Math.asin(Math.sqrt(h));}
+
+/* ---------- map ---------- */
+const map = L.map("map", {zoomControl:true}).setView([51.460, -0.066], 13);
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom:19, attribution:"&copy; OpenStreetMap contributors"}).addTo(map);
+const circleLayer = L.layerGroup().addTo(map), pinLayer = L.layerGroup().addTo(map);
+let homeMarker = null;
+const icon = s => L.divIcon({className:"", iconSize:[14,14], iconAnchor:[7,7], html:
+  s.indep ? `<div style="width:11px;height:11px;background:var(--indep);transform:rotate(45deg);margin:1px"></div>`
+  : s.p==="primary" ? `<div style="width:14px;height:14px;border-radius:50%;background:var(--primary);border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.25)"></div>`
+  : `<div style="width:13px;height:13px;background:var(--secondary);border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.25)"></div>`);
+
+/* ---------- state ---------- */
+let home=null, phase="all", minG=4, radius=3000, sortBy="ofsted", overlay=true, showIndep=true, activeIdx=null;
+
+function compute(){
+  let rows = SCHOOLS.map((s,i)=>({...s,i,d: home?distM(home,s):null}));
+  rows = rows.filter(s=> phase==="all"||s.p===phase).filter(s=> showIndep||!s.indep).filter(s=> s.indep||s.g==null||s.g<=minG);
+  if(home){
+    rows = rows.filter(s=> s.d<=radius);
+    rows.forEach(s=>{ if(!s.indep){ s.margin = s.far - s.d; s.inside = s.margin>=0; } });
+  }
+  const ranked = rows.filter(s=>!s.indep&&s.g!=null&&(!home||s.inside)).sort((a,b)=>a.g-b.g||b.pct-a.pct);
+  ranked.forEach((s,k)=>s.rank=k+1);
+  const cmp = {
+    ofsted:(a,b)=>(a.rank??999)-(b.rank??999)||(a.d??0)-(b.d??0),
+    margin:(a,b)=>(b.margin??-1e9)-(a.margin??-1e9),
+    distance:(a,b)=>(a.d??1e9)-(b.d??1e9),
+    name:(a,b)=>a.n.localeCompare(b.n),
+  }[sortBy];
+  return {rows:rows.sort(cmp), total:ranked.length};
+}
+
+function card(s,total){
+  let status="";
+  if(home && !s.indep){
+    const m=Math.abs(s.margin);
+    status = s.inside ? `<span class="status in">Inside by ${miles(m)}</span>`
+           : (m<=300 ? `<span class="status near">Just outside by ${miles(m)}</span>` : `<span class="status out">Outside by ${miles(m)}</span>`);
+  }
+  return `<div class="card ${s.indep?"independent":s.p} ${home&&!s.indep&&!s.inside?"outside":""} ${activeIdx===s.i?"active":""}" data-i="${s.i}" tabindex="0" role="button">
+    <div class="row"><div class="rank">${s.rank??"–"}</div><div><h3>${s.n}</h3><div class="meta">${s.p==="primary"?"Primary":"Secondary"} · ${s.t}${s.note?" · "+s.note:""}</div></div></div>
+    <div class="facts">
+      ${s.g!=null?`<span class="pill r${s.g}">${GRADE[s.g]}</span>`:`<span class="pill none">Not Ofsted graded</span>`}
+      ${status}
+      ${s.d!=null?`<span>${miles(s.d)} away</span>`:""}
+      ${s.indep?`<span>No catchment · ${s.fees}</span>`:`<span>Reached ${miles(s.far)} last year</span>`}
+      ${s.rank?`<span>Ranked ${s.rank} of ${total} inside</span>`:""}
+      ${s.pct!=null?`<span>Top ${100-s.pct}% of London ${s.p==="primary"?"primaries":"secondaries"}</span>`:""}
+      ${s.faith?`<span class="flag">Faith criteria may apply</span>`:""}
+      <span class="conf">Sample data</span>
+    </div></div>`;
+}
+
+function render(){
+  const {rows,total}=compute(); const list=document.getElementById("list");
+  if(!rows.length){ list.innerHTML=`<div class="empty">No schools match. Widen the radius or filters.</div>`; drawMap(rows); return; }
+  let html="";
+  if(home){
+    const ins=rows.filter(s=>!s.indep&&s.inside), outs=rows.filter(s=>!s.indep&&!s.inside), inds=rows.filter(s=>s.indep);
+    html += `<div class="count">${ins.length} inside last year’s distance · ${outs.length} outside · ${inds.length} independent</div>`;
+    if(ins.length) html += `<div class="section">Inside last year’s distance</div>` + ins.map(s=>card(s,total)).join("");
+    if(outs.length) html += `<div class="section">Outside — how far you’d need to be closer</div>` + outs.map(s=>card(s,total)).join("");
+    if(inds.length) html += `<div class="section">Independent (no catchment)</div>` + inds.map(s=>card(s,total)).join("");
+  } else html = `<div class="count">${rows.length} schools in scope — enter a postcode to see which reach you</div>` + rows.map(s=>card(s,total)).join("");
+  list.innerHTML=html;
+  list.querySelectorAll(".card").forEach(c=>{ const go=()=>{activeIdx=+c.dataset.i; const s=SCHOOLS[activeIdx]; map.panTo([s.lat,s.lon]); render();};
+    c.addEventListener("click",go); c.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go();}}); });
+  drawMap(rows);
+}
+
+function drawMap(rows){
+  circleLayer.clearLayers(); pinLayer.clearLayers();
+  const visible=new Set(rows.map(r=>r.i));
+  SCHOOLS.forEach((s,i)=>{
+    const on=visible.has(i), act=i===activeIdx, col = s.p==="primary"?"#2457C5":"#C9611B";
+    if(overlay && !s.indep && on) L.circle([s.lat,s.lon],{radius:s.far,color:col,weight:act?3:1,opacity:act?.9:.4,fillColor:col,fillOpacity:act?.18:.05}).addTo(circleLayer);
+    const m=L.marker([s.lat,s.lon],{icon:icon(s),opacity:on?1:.3}).addTo(pinLayer);
+    m.bindTooltip(s.n,{direction:"top",offset:[0,-8]});
+    m.on("click",()=>{activeIdx=i;render();});
+    if(act) m.openTooltip();
+  });
+  if(home){ if(homeMarker) homeMarker.remove(); homeMarker=L.circleMarker([home.lat,home.lon],{radius:8,color:"#1B2420",fillColor:"#1B2420",fillOpacity:1}).addTo(map).bindTooltip("Home",{permanent:true,direction:"bottom",offset:[0,8]}); }
+}
+
+map.on("click",e=>{ home={lat:e.latlng.lat,lon:e.latlng.lng}; activeIdx=null; const r=document.getElementById("resolved"); r.classList.remove("err"); r.textContent="Home set from the map."; render(); });
+
+/* postcodes.io — free, no key, returns lat/lon for any UK postcode */
+document.getElementById("pcForm").addEventListener("submit", async e=>{
+  e.preventDefault();
+  const raw=document.getElementById("pc").value.trim(); const r=document.getElementById("resolved");
+  r.classList.remove("err"); r.textContent="Looking up…";
+  try{
+    const res=await fetch("https://api.postcodes.io/postcodes/"+encodeURIComponent(raw));
+    const j=await res.json();
+    if(j.status!==200){ r.textContent="Postcode not found. Check it and try again."; r.classList.add("err"); return; }
+    const p=j.result; home={lat:p.latitude,lon:p.longitude}; activeIdx=null;
+    r.textContent=`${p.postcode} — ${p.admin_ward}, ${p.admin_district}`;
+    map.setView([p.latitude,p.longitude],14); render();
+  }catch(err){ r.textContent="Could not reach the postcode service. Check your internet connection."; r.classList.add("err"); }
+});
+
+document.querySelectorAll("[data-phase]").forEach(b=>b.addEventListener("click",()=>{phase=b.dataset.phase;document.querySelectorAll("[data-phase]").forEach(x=>x.setAttribute("aria-pressed",x===b));render();}));
+document.getElementById("minOfsted").addEventListener("change",e=>{minG=+e.target.value;render();});
+document.getElementById("radius").addEventListener("change",e=>{radius=+e.target.value;render();});
+document.getElementById("sort").addEventListener("change",e=>{sortBy=e.target.value;render();});
+document.getElementById("showIndep").addEventListener("change",e=>{showIndep=e.target.checked;render();});
+document.getElementById("toggleOverlay").addEventListener("click",e=>{overlay=!overlay;e.currentTarget.setAttribute("aria-pressed",overlay);e.currentTarget.textContent=overlay?"Catchment overlays on":"Catchment overlays off";render();});
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+SE London Schools Finder — getting started
+
+1. Install Claude Code (one line, no Node.js needed).
+   Mac/Linux, in Terminal:   curl -fsSL https://claude.ai/install.sh | bash
+   Windows, in PowerShell:   irm https://claude.ai/install.ps1 | iex
+
+2. Open Terminal in this folder. On a Mac: right-click the folder in Finder
+   and choose "New Terminal at Folder", or type  cd  followed by a space,
+   drag the folder onto the Terminal window, and press Enter.
+
+3. Type  claude  and press Enter. Sign in when asked.
+
+4. Paste the prompts from the Claude chat one at a time, starting with Prompt 1.
+   Claude Code will read PROJECT_BRIEF.md and se-london-schools-local.html itself.
+
+Files in this folder:
+  PROJECT_BRIEF.md               the full spec Claude Code works from
+  se-london-schools-local.html   the working prototype (design and logic reference)
+  START_HERE.txt                 this file

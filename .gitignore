@@ -1,0 +1,8 @@
+# Files git should ignore (not track or upload).
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Raw downloads are large (GIAS is ~62 MB) and re-downloadable; keep them local only.
+data/source-snapshots/raw/
